@@ -19,10 +19,10 @@ class InsertPicPayGateway extends Migration
                 'icon' => 'vendor/hdelima/pic-pay-gateway/public/icon.png',
                 'label' => 'PicPay',
                 'enabled' => 0,
-                'settings' => [
+                'settings' => json_encode([
                     'x-picpay-token' => 'required',
                     'x-seller-token' => 'required'
-                ],
+                ]),
             ]);
         }
     }
