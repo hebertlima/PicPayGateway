@@ -5,7 +5,7 @@ namespace Hdelima\PicPayGateway\Providers;
 use Illuminate\Support\ServiceProvider;
 use Hdelima\PicPayGateway\Services\PicPay as PicPayClient;
 
-class PicPayServiceProvider extends ServiceProvider {
+class PicPayGatewayServiceProvider extends ServiceProvider {
 
     protected $defer = false;
 
