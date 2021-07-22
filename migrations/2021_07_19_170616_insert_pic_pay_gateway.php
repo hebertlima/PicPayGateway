@@ -15,7 +15,7 @@ class InsertPicPayGateway extends Migration
     {
         if (Schema::hasTable('gateways')) {
             \DB::table('gateways')->insert([
-                'code' => 'pic-pay-gateway',
+                'code' => 'pic_pay_gateway',
                 'icon' => 'vendor/hdelima/pic-pay-gateway/public/icon.png',
                 'label' => 'PicPay',
                 'enabled' => 0,
